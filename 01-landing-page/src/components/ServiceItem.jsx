@@ -1,5 +1,5 @@
 const ServiceItem = ( {serviceInfo} ) => {
-  console.log(serviceInfo)
+
   return (
     <div>
       {serviceInfo.icon}

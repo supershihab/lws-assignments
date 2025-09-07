@@ -4,6 +4,10 @@ import Hero from "./components/Hero";
 import CompanyLogos from "./components/CompanyLogos";
 import About from "./components/About";
 import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
+import Pricing from "./components/Pricing";
+import Faq from "./components/Faq";
+import Trial from "./components/Trial";
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
       <CompanyLogos/>
       <About/>
       <Services/>
+      <Testimonials/>
+      <Pricing/>
+      <Faq/>
+      <Trial/>
     </>
   );
 }
